@@ -9,7 +9,7 @@ backend:
 media_folder: "public/upload"
 public_folder: "/"
 
-site_url: https://6712bb5a452f86000857ec15--nuxt-decap-netlify-test.netlify.app/
+site_url: https://nuxt-decap-netlify-test.netlify.app/
 
 media_library:
   name: cloudinary
