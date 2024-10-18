@@ -3,6 +3,7 @@ title: Style your typography quickly
 content: >-
   # h1
 
+  Headingky
 
   ## h2
 
