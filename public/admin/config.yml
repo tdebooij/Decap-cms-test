@@ -4,12 +4,12 @@ local_backend: true
 
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
 
 media_folder: "public/upload"
 public_folder: "/"
 
-site_url: https://sailsnake-decapcms.netlify.app
+site_url: https://6712bb5a452f86000857ec15--nuxt-decap-netlify-test.netlify.app/
 
 media_library:
   name: cloudinary
