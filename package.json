@@ -17,8 +17,6 @@
     "webpack": "^5.84.0"
   },
   "dependencies": {
-    "@nuxtjs/cloudinary": "^2.3.4",
-    "front-matter": "^4.0.2",
-    "tiny-emitter": "^2.1.0"
+    "@nuxtjs/cloudinary": "^2.3.4"
   }
 }

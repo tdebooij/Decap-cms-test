@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../stackbit.config.js"],
+  "sourcesContent": ["export default {\n  stackbitVersion: \"~0.6.0\",\n  cmsName: \"git\",\n  ssgName: \"custom\",\n  devCommand: \"npm run dev -- -p {PORT}\",\n  experimental: {\n    ssg: {\n      name: \"Nuxt3\",\n      logPatterns: {\n        up: \"Local:    http\",\n      },\n      passthrough: [\"/vite-hmr/**\"],\n    },\n  },\n  nodeVersion: \"18\",\n  dataDir: \"content/data\",\n  pagesDir: \"content/pages\",\n  pageLayoutKey: \"type\",\n  assets: {\n    referenceType: \"static\",\n    staticDir: \"public\",\n    uploadDir: \"stackbitImages\",\n    publicPath: \"/\",\n  },\n  contentModels: {\n    Page: {\n      isPage: true,\n      urlPath: \"/{slug}\",\n      newFilePath: \"{slug}.md\",\n    },\n  },\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAAO,0BAAQ;AAAA,EACb,iBAAiB;AAAA,EACjB,SAAS;AAAA,EACT,SAAS;AAAA,EACT,YAAY;AAAA,EACZ,cAAc;AAAA,IACZ,KAAK;AAAA,MACH,MAAM;AAAA,MACN,aAAa;AAAA,QACX,IAAI;AAAA,MACN;AAAA,MACA,aAAa,CAAC,cAAc;AAAA,IAC9B;AAAA,EACF;AAAA,EACA,aAAa;AAAA,EACb,SAAS;AAAA,EACT,UAAU;AAAA,EACV,eAAe;AAAA,EACf,QAAQ;AAAA,IACN,eAAe;AAAA,IACf,WAAW;AAAA,IACX,WAAW;AAAA,IACX,YAAY;AAAA,EACd;AAAA,EACA,eAAe;AAAA,IACb,MAAM;AAAA,MACJ,QAAQ;AAAA,MACR,SAAS;AAAA,MACT,aAAa;AAAA,IACf;AAAA,EACF;AACF;",
+  "names": []
+}
