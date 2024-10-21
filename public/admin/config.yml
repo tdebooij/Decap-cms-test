@@ -11,14 +11,6 @@ public_folder: "/"
 
 site_url: https://nuxt-decap-netlify-test.netlify.app/
 
-media_library:
-  name: cloudinary
-  output_filename_only: true
-  config:
-    cloud_name: <YOUR_CLOUD_NAME_HERE>
-    api_key: <YOUR_API_KEY_HERE> 
-
-
 # SEO anchor:
 seo: &seo
   name: "SEOmetaData"
@@ -30,8 +22,6 @@ seo: &seo
     - { name: "metaDescription", label: "SEO Description", widget: "string", pattern: [".{20,160}", "between 20 and 160 characters"], required: true, hint: "must be between 20 and 160 characters" }
     - { name: "metaImage", label: "SEO image", widget: "image"}
     - { name: "keywords", label: "keywords", widget: "string", hint: "keywords are comma seperated", required: false }
-
-
 
 collections:
   - name: "globalContent"
